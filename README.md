@@ -20,5 +20,5 @@ The following image shows the web application's appearance and functionality:
 ## Links of interest
 
 - Repository: https://github.com/rrangel07/HW1-Code_Refactor
-- Deployed application: rrangel07.github.io/HW1-Code_Refactor/
+- Deployed application: https://rrangel07.github.io/HW1-Code_Refactor/
 
