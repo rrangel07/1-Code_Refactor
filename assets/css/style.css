@@ -9,6 +9,9 @@ body {
     background-color: #d9dcd6;
 }
 
+/* The elements from line 16 to line 53 used to be class selector
+I switch them to element selectors and descedant selectors respectively*/
+
 header { 
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,15 +42,6 @@ li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 footer {
     padding: 30px;
     clear: both;
@@ -58,7 +52,20 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 /* ID Selectors */
+   
+/* All the selector in this category used to be class selectors and were turned
+into Id Selectors */
 #hero {
     height: 800px;
     width: 100%;
@@ -85,23 +92,6 @@ footer h2 {
     background-color: #2589bd;
 }
 /* Class selectors */
-.services {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}    
-
-.services img {
-    max-height: 200px;
-}    
-
-.services h2 {   
-    margin-bottom: 20px;
-    font-size: 36px;
-}    
 
 .float-left {
     float: left;
@@ -111,9 +101,28 @@ footer h2 {
 .float-right {
     float: right;
     margin-left: 25px;
+}
+
+/*All the selectors under this line were repited times 3 with different names ,each, so I consolidated them into 1 of each with a standard name*/
+.services { 
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }    
 
-.benefit {
+.services img { 
+    max-height: 200px;
+}    
+
+.services h2 {   
+    margin-bottom: 20px;
+    font-size: 36px;
+}    
+
+.benefit { 
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -123,7 +132,7 @@ footer h2 {
     text-align: center;
 }
 
-.benefit img {
+.benefit img { 
     display: block;
     margin: 10px auto;
     max-width: 150px;
